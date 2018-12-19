@@ -12,6 +12,15 @@ Things that are interesting, but you don't want to go through a big review to ge
 * You have just explained to someone; in the first instance you might encourage them to post (if they are a Cultivar)
 * A common misconception that you have pointed out in a Pull Request or review.
 
+## Running locally
+
+Install the gems then run:
+
+```
+bundle exec jekyll serve
+```
+
+Navigate to `localhost:4000` to view the site.
 
 ## Contributing
 
