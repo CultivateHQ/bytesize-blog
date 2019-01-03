@@ -17,7 +17,7 @@ defmodule Telegraph.Debounce do
   @moduledoc """
   Remove the bounce caused by closing the telegraph key. Doing it in
   software so we don't have to mess with capacitors. Ignores events that occur
-  within 40ms of each other. Sends events that are not followed by another after 50 milliseconds.
+  within 40ms of each other. Sends events that are not followed by another after 40 milliseconds.
 
 
   See https://en.wikipedia.org/wiki/Switch#Contact_bounce
