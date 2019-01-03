@@ -30,6 +30,8 @@ Cultivars can create a new post in the `_posts` directory. Follow the pattern of
 
 We probably won't be publicising this blog until it is a bit more Cultivate themed. Cultivars are more than welcome to help with that.
 
+The script `bin/new_post.rb` can make the beginnings of a post for ya.
+
 ## Deploying
 
 Right now, this is hosted on Github pages. Deploying is just a matter of pushing to master 🙀. It can be found at https://bytesize.cultivatehq.com.
