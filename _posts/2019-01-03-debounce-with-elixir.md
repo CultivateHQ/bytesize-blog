@@ -3,7 +3,7 @@ layout: post
 title: Debounce with Elixir and GenServer timeout
 date: 2019-01-03 15:54:33 +0000
 author: Paul Wilson
-categories: elixir otp
+categories: elixir otp nerves
 ---
 
 Over the New Year holiday I worked on a little [Nerves](https://nerves-project.org) project to help my daughter with her morse skills. It enables text to be sent to Slack, via a morse [telegraph key](https://en.wikipedia.org/wiki/Telegraph_key) and a [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/). (The project is [here](https://github.com/paulanthonywilson/morsey).)
