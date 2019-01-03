@@ -54,7 +54,7 @@ defmodule Telegraph.Debounce do
 end
 ```
 
-The third element in the default `handle_info/2` return tuple is a 40ms timeout. This means that _if no more messages_ are received within 40ms, a `:timout` message is sent to the GenServer. Only on receiving a timout is the _last message_ sent on to the receiving process. That is, a "key down" or "key up" message is only passed on once the circuit has settled down.
+The third element in the default `handle_info/2` return tuple is a 40ms timeout. This means that _if no more messages_ are received within 40ms, a `:timeout` message is sent to the GenServer. Only on receiving a timout is the _last message_ sent on to the receiving process. That is, a "key down" or "key up" message is only passed on once the circuit has settled down.
 
 ([Later on](https://github.com/paulanthonywilson/morsey/blob/cc9f75b8b9cce67f3683f6ba0a97b10ba5aea06d/apps/telegraph/lib/telegraph/debounce.ex), it got a bit more sophisticated: the last message is passed on, but with the timestamp from the first message of the sequence.)
 
