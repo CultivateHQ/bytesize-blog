@@ -17,7 +17,6 @@ title: Cultivate's Bytesized Blog
 email: contact@cultivatehq.com
 company_site: "https://cultivatehq.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Small but tasty morsels of information from Cultivars.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bytesize.cultivatehq.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cultivatehq
