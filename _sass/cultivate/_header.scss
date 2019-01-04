@@ -21,7 +21,7 @@
     .site-title {
         margin-top: 6px;
         font-weight: 100;
-        @include relative-font-size(2);
+        @include relative-font-size(1.6);
         letter-spacing: -1px;
         &,
         &:visited {
