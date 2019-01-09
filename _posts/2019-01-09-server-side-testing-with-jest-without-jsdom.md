@@ -8,7 +8,7 @@ categories: javascript testing jest
 
 You can use [Jest](https://jestjs.io) to test both server-side components and browser components (which need [JSDOM](https://github.com/jsdom/jsdom)). In both cases, the default environment is `jsdom`, which means it’s used even for your server-side tests. This can cause problems, and apparently makes non-DOM tests run slower.
 
-Switch environment in your server-side tests (e.g. I am testing an Express middleware component) by putting the following comment in the header:
+Instead, switch environment in your server-side tests (e.g. I am testing an Express middleware component) by putting the following comment in the header:
 
 ```javascript
 /**
