@@ -16,6 +16,8 @@ Switch environment in your server-side tests (e.g. I am testing an Express middl
  */
  ```
 
+ See [the Jest documentation](https://jestjs.io/docs/en/configuration.html#testenvironment-string).
+
 I stumbled upon this because I wanted to deliberately create a Network Error for my test. Even though I was catching it correctly, `jsdom`’s `xhrutils.js` was handling the HTTP request and logging the error to the `console` independently, which left a noisy stack trace in the test output for a successful test run.
 
 Changing the environment to `node` silenced the logging and meant the actual error was getting through to my exception handling code.
