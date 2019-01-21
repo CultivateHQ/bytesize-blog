@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to deal with cross origin iframes in Phoenix
+title: Putting Phoenix in an iframe
 date: 2019-01-21 16:26:21 +0000
 author: Alan Gardner and Valerie Dryden
 categories: elixir phoenix
