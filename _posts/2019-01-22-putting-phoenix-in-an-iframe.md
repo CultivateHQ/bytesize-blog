@@ -23,7 +23,7 @@ defmodule CultivateWeb.AllowCrossOriginIframe do
 
   def call(conn, _options) do
     conn
-    |> authenticate_source
+    |> authenticate_source()
     |> delete_resp_header("x-frame-options")
   end
 
