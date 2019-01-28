@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bytesize.cultivatehq.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cultivatehq
 github_username: cultivatehq
+google_analytics: "UA-54446806-1"
 
 # Build settings
 markdown: kramdown
